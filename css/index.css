@@ -198,3 +198,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page styles */
+
+.about-top-content {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
+
+.info-boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.info-box {
+	width: 47%;
+	padding: 10px 0 25px 0;
+	border-bottom: 1px dashed black;
+	margin-bottom: 40px;
+}
+
+.info-box img {
+	width: 100%;
+	height: auto;
+}
+
+.info-box h2 {
+	padding-top: 10px;
+}
+
+.info-box p {
+	padding-bottom: 25px;
+}
+
+.info-box a {
+	border: 2px solid black;
+	padding: 5px 15px;
+	text-decoration: none;
+	color: black;
+	border-radius: 10px;
+}
+
+.about-bottom-content {
+	padding: 0 2% 40px;
+}
